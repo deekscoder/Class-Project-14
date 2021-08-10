@@ -83,7 +83,7 @@ function draw () {
   }
 
   if (arrowGroup.isTouching(greenB)){
-    pinkB.destroyEach();
+    greenB.destroyEach();
     arrowGroup.destroyEach();
     score=score+5;
   }
